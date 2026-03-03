@@ -838,6 +838,14 @@ body.page-about .page-background {
   text-align: center;
 }
 
+.site-footer__credit {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  margin: 0.5rem 0 0;
+  text-align: center;
+  opacity: 0.85;
+}
+
 .site-footer__right {
   display: flex;
   gap: 3rem;
