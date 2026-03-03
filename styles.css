@@ -416,14 +416,14 @@ body.page-about .page-background {
   background:
     linear-gradient(180deg, rgba(0,0,0,0.3) 0%, transparent 50%),
     linear-gradient(180deg, rgba(0,0,0,0.1) 0%, transparent 40%),
-    #1a1d24 url('images/axon-incident-cover.png') center / cover no-repeat;
+    #1a1d24 url('images/axon-evidence-cover.png') center / cover no-repeat;
 }
 
 .project-card__thumbnail--axon-incident {
   background:
     linear-gradient(180deg, rgba(0,0,0,0.3) 0%, transparent 50%),
     linear-gradient(180deg, rgba(0,0,0,0.1) 0%, transparent 40%),
-    #1a1d24 url('images/axon-evidence-cover.png') center / cover no-repeat;
+    #1a1d24 url('images/axon-incident-cover.png') center / cover no-repeat;
 }
 
 .project-card__thumbnail--shop-provincial {
