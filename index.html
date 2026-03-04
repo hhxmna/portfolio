@@ -21,7 +21,8 @@
 
   <header id="about" class="header">
     <div class="header-content">
-      <h1 class="logo">hi, im hamna ahmed.</h1>
+      <p class="header__eyebrow">Hello —</p>
+      <h1 class="logo">Hi, i'm Hamna.</h1>
       <p class="about-intro">
         My background in <span class="about-intro__highlight">computer science</span> shaped how I think — in <span class="about-intro__highlight">systems, constraints, and tradeoffs</span>.<br>
         Today, I bring that <span class="about-intro__highlight">mindset</span> to <span class="about-intro__highlight">product design</span>, building <span class="about-intro__highlight">solutions</span> that matter <span class="about-intro__highlight">beyond the interface</span>.
@@ -38,6 +39,10 @@
   <main class="main">
     <div id="page-work" class="page-view page-view--active" data-page="work">
       <section id="work" class="projects">
+        <header class="projects__header">
+          <p class="projects__label">Selected work</p>
+          <div class="projects__line" aria-hidden="true"></div>
+        </header>
         <div class="project-cards">
           <article class="project-card" data-project="evidence-bundles">
             <div class="project-card__image-wrapper">
@@ -45,8 +50,11 @@
                 <span class="project-card__badge">AUG - OCT 2025</span>
               </div>
             </div>
-            <h2 class="project-card__title">Axon Evidence Bundles</h2>
-            <p class="project-card__description">Unifying evidence so investigators can find what matters without leaving their workflow.</p>
+            <div class="project-card__text">
+              <h2 class="project-card__title">Axon Evidence Bundles</h2>
+              <p class="project-card__description">Unifying evidence so investigators can find what matters without leaving their workflow.</p>
+              <span class="project-card__hint">View case study →</span>
+            </div>
           </article>
 
           <article class="project-card" data-project="incident-report">
@@ -55,8 +63,11 @@
                 <span class="project-card__badge">MAY - AUG 2023</span>
               </div>
             </div>
-            <h2 class="project-card__title">Axon Incident Report</h2>
-            <p class="project-card__description">Reimagining how incident reports and third-party evidence flow from the field into Evidence.com.</p>
+            <div class="project-card__text">
+              <h2 class="project-card__title">Axon Incident Report</h2>
+              <p class="project-card__description">Reimagining how incident reports and third-party evidence flow from the field into Evidence.com.</p>
+              <span class="project-card__hint">View case study →</span>
+            </div>
           </article>
 
           <article class="project-card" data-project="shop-provincial">
@@ -65,8 +76,11 @@
                 <span class="project-card__badge">DEC - APR 2023</span>
               </div>
             </div>
-            <h2 class="project-card__title">Shop Provincial E-commerce</h2>
-            <p class="project-card__description">A redesign that replaced a manual, sales-focused buying process with a self-serve e-commerce experience built for discovery, engagement, and conversion.</p>
+            <div class="project-card__text">
+              <h2 class="project-card__title">Shop Provincial E-commerce</h2>
+              <p class="project-card__description">A redesign that replaced a manual, sales-focused buying process with a self-serve e-commerce experience built for discovery, engagement, and conversion.</p>
+              <span class="project-card__hint">View case study →</span>
+            </div>
           </article>
         </div>
       </section>
@@ -107,8 +121,11 @@
                 <span class="project-card__badge">Project</span>
               </div>
             </div>
-            <h2 class="project-card__title">Memory Frame</h2>
-            <p class="project-card__description">A digital memory frame maker for creating and sharing frames with the people you care about.</p>
+            <div class="project-card__text">
+              <h2 class="project-card__title">Memory Frame</h2>
+              <p class="project-card__description">A digital memory frame maker for creating and sharing frames with the people you care about.</p>
+              <span class="project-card__hint">View project →</span>
+            </div>
           </article>
 
         </div>
@@ -143,6 +160,10 @@
 
     <div id="page-about" class="page-view" data-page="about">
       <section class="about-page">
+        <header class="about-page__header">
+          <p class="about-page__label">A bit about me</p>
+          <div class="about-page__line" aria-hidden="true"></div>
+        </header>
         <div class="about-page__content">
           <div class="about-page__text">
             <p class="about-page__body">I began in computer science, but found my way to product design through a growing interest in how technology is shaped around people. I'm especially drawn to solving problems for users whose experiences I may not naturally share.</p>
