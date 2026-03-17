@@ -35,7 +35,7 @@ if (cursor) {
     card.addEventListener('mouseleave', () => cursor.classList.remove('custom-cursor--view-project'));
   });
 
-  // Try it out cursor on hover over playground project cards
+  // Try it out cursor + click behavior on playground project cards
   const playgroundCards = document.querySelectorAll('.project-card[data-cursor-label]');
   playgroundCards.forEach(card => {
     card.addEventListener('mouseenter', () => {
@@ -43,6 +43,14 @@ if (cursor) {
       cursor.classList.add('custom-cursor--view-project');
     });
     card.addEventListener('mouseleave', () => cursor.classList.remove('custom-cursor--view-project'));
+
+    // Make the entire playground card clickable by delegating to the hint link
+    card.addEventListener('click', () => {
+      const hintLink = card.querySelector('.project-card__hint[href]');
+      if (hintLink && hintLink.href) {
+        window.open(hintLink.href, '_blank', 'noopener,noreferrer');
+      }
+    });
   });
 }
 
